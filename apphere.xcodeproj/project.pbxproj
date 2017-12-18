@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F5E9F13F4775A144B0EE51A /* Pods_apphereTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD1BECA63D0FD0D4BBBEC00 /* Pods_apphereTests.framework */; };
 		2C05C7151FDBDF5700D1DBE9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05C7141FDBDF5700D1DBE9 /* SecondViewController.swift */; };
-		2C2156431FD3D02E00FAD87F /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2156421FD3D02E00FAD87F /* EstimoteSDK.framework */; };
 		2C3A13CC1FE5BBF60041410C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A13CB1FE5BBF60041410C /* HomeViewController.swift */; };
-		2CC8CBA41FE7D10D00A0D598 /* Mapbox.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CC8CBA31FE7D10D00A0D598 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2CC8CBAA1FE7DA1500A0D598 /* ApphereMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC8CBA91FE7DA1500A0D598 /* ApphereMapViewController.swift */; };
+		2CC8CBAA1FE7DA1500A0D598 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC8CBA91FE7DA1500A0D598 /* MapViewController.swift */; };
 		2CD1B84F1FD3C4F200179D26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1B84E1FD3C4F200179D26 /* AppDelegate.swift */; };
 		2CD1B8511FD3C4F200179D26 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1B8501FD3C4F200179D26 /* FirstViewController.swift */; };
 		2CD1B8561FD3C4F200179D26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD1B8541FD3C4F200179D26 /* Main.storyboard */; };
@@ -19,6 +18,8 @@
 		2CD1B85B1FD3C4F200179D26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD1B8591FD3C4F200179D26 /* LaunchScreen.storyboard */; };
 		2CD1B8661FD3C4F200179D26 /* apphereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1B8651FD3C4F200179D26 /* apphereTests.swift */; };
 		2CD1B8711FD3C4F200179D26 /* apphereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1B8701FD3C4F200179D26 /* apphereUITests.swift */; };
+		D68AEF1FBC8CC03FD4CDB7BB /* Pods_apphere.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD841BEA5874BB9F1D25DA6 /* Pods_apphere.framework */; };
+		E50CB028372812DC52179166 /* Pods_apphereUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732A2627E04DA46F7E9CF7BC /* Pods_apphereUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,19 +46,16 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2CC8CBA41FE7D10D00A0D598 /* Mapbox.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1FD1BECA63D0FD0D4BBBEC00 /* Pods_apphereTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apphereTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C05C7141FDBDF5700D1DBE9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		2C2156421FD3D02E00FAD87F /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EstimoteSDK.framework; sourceTree = "<group>"; };
 		2C3A13CB1FE5BBF60041410C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		2CC8CBA01FE7D09600A0D598 /* Mapbox.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Mapbox.framework.dSYM; sourceTree = "<group>"; };
-		2CC8CBA31FE7D10D00A0D598 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
-		2CC8CBA91FE7DA1500A0D598 /* ApphereMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApphereMapViewController.swift; sourceTree = "<group>"; };
+		2CC8CBA91FE7DA1500A0D598 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		2CD1B84B1FD3C4F200179D26 /* apphere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apphere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD1B84E1FD3C4F200179D26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CD1B8501FD3C4F200179D26 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +69,14 @@
 		2CD1B86C1FD3C4F200179D26 /* apphereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apphereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD1B8701FD3C4F200179D26 /* apphereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apphereUITests.swift; sourceTree = "<group>"; };
 		2CD1B8721FD3C4F200179D26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CBCC46979BB689D8C8A8969 /* Pods-apphereTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apphereTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-apphereTests/Pods-apphereTests.debug.xcconfig"; sourceTree = "<group>"; };
+		45F8863026B5860928D5C471 /* Pods-apphereUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apphereUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-apphereUITests/Pods-apphereUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		732A2627E04DA46F7E9CF7BC /* Pods_apphereUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apphereUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		851ACCFFA61FE63BA9057BCF /* Pods-apphere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apphere.debug.xcconfig"; path = "Pods/Target Support Files/Pods-apphere/Pods-apphere.debug.xcconfig"; sourceTree = "<group>"; };
+		9BB855DCA907FAC5EC4A713C /* Pods-apphere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apphere.release.xcconfig"; path = "Pods/Target Support Files/Pods-apphere/Pods-apphere.release.xcconfig"; sourceTree = "<group>"; };
+		A13389D41504502C5E8BDB98 /* Pods-apphereTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apphereTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-apphereTests/Pods-apphereTests.release.xcconfig"; sourceTree = "<group>"; };
+		B8A8606E2F53538358D5F2B2 /* Pods-apphereUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apphereUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-apphereUITests/Pods-apphereUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CAD841BEA5874BB9F1D25DA6 /* Pods_apphere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apphere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C2156431FD3D02E00FAD87F /* EstimoteSDK.framework in Frameworks */,
+				D68AEF1FBC8CC03FD4CDB7BB /* Pods_apphere.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5E9F13F4775A144B0EE51A /* Pods_apphereTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E50CB028372812DC52179166 /* Pods_apphereUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,12 +110,12 @@
 		2CD1B8421FD3C4F200179D26 = {
 			isa = PBXGroup;
 			children = (
-				2CC8CBA01FE7D09600A0D598 /* Mapbox.framework.dSYM */,
-				2CC8CBA31FE7D10D00A0D598 /* Mapbox.framework */,
 				2CD1B84D1FD3C4F200179D26 /* apphere */,
 				2CD1B8641FD3C4F200179D26 /* apphereTests */,
 				2CD1B86F1FD3C4F200179D26 /* apphereUITests */,
 				2CD1B84C1FD3C4F200179D26 /* Products */,
+				491B245EE4AD9A9F7E3DC3F8 /* Pods */,
+				2E60B2AEF8279E75E9A03B49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,12 +132,11 @@
 		2CD1B84D1FD3C4F200179D26 /* apphere */ = {
 			isa = PBXGroup;
 			children = (
-				2C2156421FD3D02E00FAD87F /* EstimoteSDK.framework */,
 				2CD1B84E1FD3C4F200179D26 /* AppDelegate.swift */,
 				2CD1B8501FD3C4F200179D26 /* FirstViewController.swift */,
 				2C05C7141FDBDF5700D1DBE9 /* SecondViewController.swift */,
 				2C3A13CB1FE5BBF60041410C /* HomeViewController.swift */,
-				2CC8CBA91FE7DA1500A0D598 /* ApphereMapViewController.swift */,
+				2CC8CBA91FE7DA1500A0D598 /* MapViewController.swift */,
 				2CD1B8541FD3C4F200179D26 /* Main.storyboard */,
 				2CD1B8571FD3C4F200179D26 /* Assets.xcassets */,
 				2CD1B8591FD3C4F200179D26 /* LaunchScreen.storyboard */,
@@ -156,6 +163,29 @@
 			path = apphereUITests;
 			sourceTree = "<group>";
 		};
+		2E60B2AEF8279E75E9A03B49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAD841BEA5874BB9F1D25DA6 /* Pods_apphere.framework */,
+				1FD1BECA63D0FD0D4BBBEC00 /* Pods_apphereTests.framework */,
+				732A2627E04DA46F7E9CF7BC /* Pods_apphereUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		491B245EE4AD9A9F7E3DC3F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				851ACCFFA61FE63BA9057BCF /* Pods-apphere.debug.xcconfig */,
+				9BB855DCA907FAC5EC4A713C /* Pods-apphere.release.xcconfig */,
+				3CBCC46979BB689D8C8A8969 /* Pods-apphereTests.debug.xcconfig */,
+				A13389D41504502C5E8BDB98 /* Pods-apphereTests.release.xcconfig */,
+				45F8863026B5860928D5C471 /* Pods-apphereUITests.debug.xcconfig */,
+				B8A8606E2F53538358D5F2B2 /* Pods-apphereUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -163,11 +193,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CD1B8751FD3C4F200179D26 /* Build configuration list for PBXNativeTarget "apphere" */;
 			buildPhases = (
+				6E37DF8B49B5CAFF4E4A2583 /* [CP] Check Pods Manifest.lock */,
 				2CD1B8471FD3C4F200179D26 /* Sources */,
 				2CD1B8481FD3C4F200179D26 /* Frameworks */,
 				2CD1B8491FD3C4F200179D26 /* Resources */,
 				2CC8CBA11FE7D0E800A0D598 /* CopyFiles */,
-				2CC8CB871FE7CE9E00A0D598 /* ShellScript */,
+				26BE3C3A5A547F4BE053E37B /* [CP] Embed Pods Frameworks */,
+				7A1436883168F218BA4DEBA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CD1B8781FD3C4F200179D26 /* Build configuration list for PBXNativeTarget "apphereTests" */;
 			buildPhases = (
+				EE6EF18EE3F51692B2B1D35E /* [CP] Check Pods Manifest.lock */,
 				2CD1B85D1FD3C4F200179D26 /* Sources */,
 				2CD1B85E1FD3C4F200179D26 /* Frameworks */,
 				2CD1B85F1FD3C4F200179D26 /* Resources */,
+				2DF22885EF05CB4F7F9A23AC /* [CP] Embed Pods Frameworks */,
+				165AEB3ADC7D0CBEC11AE16E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CD1B87B1FD3C4F200179D26 /* Build configuration list for PBXNativeTarget "apphereUITests" */;
 			buildPhases = (
+				A801F06B905F3B4D81D75D2E /* [CP] Check Pods Manifest.lock */,
 				2CD1B8681FD3C4F200179D26 /* Sources */,
 				2CD1B8691FD3C4F200179D26 /* Frameworks */,
 				2CD1B86A1FD3C4F200179D26 /* Resources */,
+				4117AFDF61E6A85459449BB3 /* [CP] Embed Pods Frameworks */,
+				79EDB02E83360D37C989C187 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,18 +331,140 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2CC8CB871FE7CE9E00A0D598 /* ShellScript */ = {
+		165AEB3ADC7D0CBEC11AE16E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework/strip-frameworks.sh\"";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-apphereTests/Pods-apphereTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26BE3C3A5A547F4BE053E37B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-apphere/Pods-apphere-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DF22885EF05CB4F7F9A23AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-apphereTests/Pods-apphereTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4117AFDF61E6A85459449BB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-apphereUITests/Pods-apphereUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E37DF8B49B5CAFF4E4A2583 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79EDB02E83360D37C989C187 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-apphereUITests/Pods-apphereUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A1436883168F218BA4DEBA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-apphere/Pods-apphere-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A801F06B905F3B4D81D75D2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE6EF18EE3F51692B2B1D35E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -315,7 +475,7 @@
 			files = (
 				2C05C7151FDBDF5700D1DBE9 /* SecondViewController.swift in Sources */,
 				2CD1B84F1FD3C4F200179D26 /* AppDelegate.swift in Sources */,
-				2CC8CBAA1FE7DA1500A0D598 /* ApphereMapViewController.swift in Sources */,
+				2CC8CBAA1FE7DA1500A0D598 /* MapViewController.swift in Sources */,
 				2CD1B8511FD3C4F200179D26 /* FirstViewController.swift in Sources */,
 				2C3A13CC1FE5BBF60041410C /* HomeViewController.swift in Sources */,
 			);
@@ -481,16 +641,17 @@
 		};
 		2CD1B8761FD3C4F200179D26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851ACCFFA61FE63BA9057BCF /* Pods-apphere.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C8RM98FY44;
+				DEVELOPMENT_TEAM = S57MEAYY9V;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/apphere",
 				);
 				INFOPLIST_FILE = apphere/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -508,16 +669,17 @@
 		};
 		2CD1B8771FD3C4F200179D26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BB855DCA907FAC5EC4A713C /* Pods-apphere.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C8RM98FY44;
+				DEVELOPMENT_TEAM = S57MEAYY9V;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/apphere",
 				);
 				INFOPLIST_FILE = apphere/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -535,6 +697,7 @@
 		};
 		2CD1B8791FD3C4F200179D26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CBCC46979BB689D8C8A8969 /* Pods-apphereTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -551,6 +714,7 @@
 		};
 		2CD1B87A1FD3C4F200179D26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A13389D41504502C5E8BDB98 /* Pods-apphereTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -567,6 +731,7 @@
 		};
 		2CD1B87C1FD3C4F200179D26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F8863026B5860928D5C471 /* Pods-apphereUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -582,6 +747,7 @@
 		};
 		2CD1B87D1FD3C4F200179D26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A8606E2F53538358D5F2B2 /* Pods-apphereUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
