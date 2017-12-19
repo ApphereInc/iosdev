@@ -15,7 +15,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let url = URL(string: "https://google.com")
+        let url = URL(string: "https://www.youtube.com/user/Estimote")
         webView.load(URLRequest(url: url!))
         
         
